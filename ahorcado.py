@@ -9,7 +9,7 @@ he will lost.
 
 from random import choice
 
-def get_letter(my_food):
+def show_game(my_food):
     """
     From a letter validates if is in the word, the lives of game are six, 
     when the letter is not in the word the player lost a live if not the player 
@@ -61,4 +61,4 @@ def get_food():
 
 
 food = get_food()
-get_letter(food)
+show_game(food)
